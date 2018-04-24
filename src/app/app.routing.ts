@@ -49,7 +49,7 @@ const routes: Routes = [
     { path: 'examples/page404',     component: Page404Component },
     { path: 'examples/page422',     component: Page422Component },
     { path: 'examples/page500',     component: Page500Component },
-    { path: '', redirectTo: 'presentation', pathMatch: 'full' }
+    { path: '', redirectTo: 'sections', pathMatch: 'full' }
 ];
 
 @NgModule({
