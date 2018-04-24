@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-translate">
             <div class="navbar-header">
-                <a class="navbar-brand" [routerLink]="['/presentation']">scarlet</a>
+                <a class="navbar-brand" [routerLink]="['/presentation']">scarlet • x   <img class="left-first-person add-animation" src=".\assets\img\Profile\icon1.jpg" alt="" /></a>
             </div>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02"
                 aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
@@ -18,23 +18,23 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/components']">Components</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/components']">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">首页</a>
+                    <a class="nav-link" [routerLink]="['/components']"> Top</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">Top推荐</a>
+                    <a class="nav-link" [routerLink]="['/components']">♝ 酒瓶座</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">你要的都在这</a>
+                    <a class="nav-link" [routerLink]="['/components']">⚤ Story</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">试探</a>
+                    <a class="nav-link" [routerLink]="['/components']"> 撩我 </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">撩我</a>
-                </li>
-                <div ngbDropdown class="nav-item dropdown">
+                 <div ngbDropdown class="nav-item dropdown">
                     <div class="nav-link dropdown-toggle" ngbDropdownToggle>Sections</div>
                     <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right dropdown-danger">
                         <a class="dropdown-item" [routerLink]="['/sections']" fragment="headers">
