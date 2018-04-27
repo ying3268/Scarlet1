@@ -14,7 +14,7 @@ export class AboutusComponent implements OnInit, OnDestroy {
     selectedItems1 = [];
     dropdownSettings1 = {};
 
-    data : Date = new Date();
+    data: Date = new Date();
 
     constructor() { }
 
